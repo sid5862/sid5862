@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EvenNum</title>
+</head>
+<body>
+    <p>The array [2,5,13,12,22,24,11,85,56,38,45,20] </p>
+    <button onclick="even()">click</button>
+    <p id="demo"></p>
+</body>
+
+    <script>
+        function even() {
+            var num = [2,5,13,12,22,24,11,85,56,38,45,20]
+            let i=0 ;
+            console.log(num.length)
+            var out =[];
+            for (i ; i < num.length; i++) {
+                if (num[i]%2 == 0) {
+                    out += num[i]+ ","
+                }
+            }
+            document.getElementById("demo").innerHTML= "Even Number : " + out;
+        }
+    </script>
+</html>
