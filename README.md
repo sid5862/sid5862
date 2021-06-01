@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @sid5862
+- 👋 Hi, I’m Siddharth SInfh
 - 👀 I’m interested in Javascript and Reactjs.
 - 🌱 I’m currently learning Reactjs.
 - 💞️ I’m looking to collaborate on ...
