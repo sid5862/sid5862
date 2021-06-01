@@ -1,0 +1,67 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(20, 20, 20);
+  background-attachment: fixed;
+}
+
+.main {
+  display: grid;
+  text-align: center;
+}
+
+h1 {
+  color: #ffc107;
+  margin-top: 15px;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+Button {
+  color: black;
+  transition: all 0.3s ease-in;
+}
+.todo {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.input {
+  width: 400px;
+  height: 38px;
+  border: rgb(161, 158, 158) solid 1px;
+  margin-right: 10px;
+}
+
+.MuiInputBase-input {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.output {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+p {
+  color: #ffc107;
+  display: block;
+  font-size: larger;
+  font-weight: 700;
+  padding: 5px 10px;
+  box-shadow: rgb(243, 144, 144) 0px 0px 3px;
+  user-select: none;
+  text-transform: uppercase;
+}
+
+/* Hover property */
+
+Button:hover {
+  box-shadow: rgb(252, 106, 106) 0px 0px 7px;
+  transform: scale(1.02);
+}
